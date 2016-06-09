@@ -8,5 +8,7 @@ java -javaagent:path/to/broker-leak-detector-1.0-jar-with-dependencies.jar=http=
 java -Xbootclasspath/p:path/to/javagent-1.1-jar-with-dependencies.jar -javaagent:path/to/javagent-1.1-jar-with-dependencies.jar  ...your usual Java args follows...
 
 http://localhost:12251/ - show active brokers;
+
 http://localhost:12251/exceptions - show stack of catched exceptions;
+
 http://localhost:12251/reset - zero stack of catched exceptions;
