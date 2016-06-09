@@ -6,7 +6,7 @@
 
     <groupId>org.existdb</groupId>
     <artifactId>broker-leak-detector</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
